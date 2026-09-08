@@ -1,26 +1,3 @@
-# unit = input("Enter the unit you want to convert from (C/F): ")
-# temp = float(input("Enter the temperature:  "))
-# if unit == "C":
-#     temp = (temp * 9/5) + 32
-#     print(f"{round(temp, 1)}F")
-# elif unit == "F":
-#     temp = (temp - 32) * 5/9
-#     print(f"{round(temp, 1)}C")
-# else:
-#     print("invalid unit. Please enter C or F.")
-
-# temp = 30
-# sunny = True
-
-# if (temp <= 30 or temp>= 50):
-#     print("The weather is good")
-# else:
-#     print("the weather is bad")
-# if sunny:
-#      print("It's sunny outside")
-# else:
-#     print("It's not sunny outside")
-num = 8
-result = "EVEN" if num % 2 == 0 else "ODD"
-
-print(result)
+phone_number = "551 000 6459"
+phone_number = phone_number[0:3] + phone_number[4:7] + phone_number [8:12]
+print(phone_number)
