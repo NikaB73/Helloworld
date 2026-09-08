@@ -1,3 +1,16 @@
 phone_number = "551 000 6459"
 phone_number = phone_number[0:3] + phone_number[4:7] + phone_number [8:12]
 print(phone_number)
+
+# email = input("enter your email:  ")
+# index = email.index("@")
+# username = email[0:index]
+# domain = email[index + 1:]
+# print(f"{username} is your username and {domain} is your domain")
+
+price1 = 120.23
+price2 = -386.93476
+price3 = 98.3
+print(f"price 1 is {price1:.5f}")
+print(f"price 2 is {price2:.1f}")
+print(f"price 3 is {price3:.2f}")
